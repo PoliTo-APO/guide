@@ -67,7 +67,7 @@ git config --global user.name "Your Name" # inserire vostro nome/nickname
 ## PyCharm
 Dal [sito web](https://www.jetbrains.com/pycharm/download/) di PyCharm, seguire le istruzioni d'installazione per il vostro sistema operativo. 
 
-La *Community Edition* basta e avanza (questo corso potreste farlo, e lo consiglio, usando terminale e Notepad++).
+La *Community Edition* basta e avanza (questo corso potreste farlo anche usando terminale e Notepad++).
 
 Altrimenti JetBrains permette di [richiedere](https://www.jetbrains.com/community/education/#students) licenze gratuite per studenti.
 
