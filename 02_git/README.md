@@ -61,7 +61,9 @@ Indiare la cartella in cui si vuole salvare il repository, e premere su clone.
 
 ### Configurazione python
 Creare un nuovo file nel progetto, per esempio contenere la soluzione al primo esercizio e inserire del codice.
-PyCharm mostrerà un errore, richiedendo di configurare l'inteprete.
+PyCharm potrebbe mostrere un errore, richiedendo di configurare l'interprete.
+Se l'errore non compare e riuscite a lanciare il programma, potete saltare alla prossima sezione.
+
 Fare Click su ```Configure Python intepreter```,
 nella finestrella selezionare ```interpreter settings -> add New interpreter -> Add local interpreter```.
 
@@ -85,11 +87,12 @@ Evitare messaggi troppo generici: in futuro sarà utile per capire cos'è stato 
 ### Aggiornamento repository remoto (push)
 Aprire la sezione git in basso, e notare che la versione locale ha un commit in più rispetto alla versione remote (**origin/main**).
 Fare tasto destro sull'ultimo commit locale e selezionare ```push up to here```.
-Nella finestra che si apre confermare premendo il pulsante```push```.
+Se l'opzione non compare, nella finestrella a sinistra, fare tasto destro su ```Local/main``` e poi ```push```.
+Nella finestra che si apre confermare premendo il pulsante ```push```.
 
 <img src="img/push_pycharm.png" width="600" />
 
-In questo modo il repository remoto si sincronizzana con quello locale.
+In questo modo il repository remoto si sincronizzerà con quello locale.
 Come si nota ora nella sezione **Git**, ```origin/main``` e ```main``` coincidono.
 <img src="img/push_pycharm_synch.png" width="600" />
 
@@ -103,7 +106,7 @@ Una volta effettuato il cambiamento eseguire il commit sul repository remoto.
 
 <img src="img/commit_github.png" width="600" />
 
-La versione locale non è ancora corrente delle modifiche.
+La versione locale non è ancora al corrente delle modifiche.
 Per far si che vengano visualizzate occore effettuare un fetch, premendo l'opportuno pulsante.
 
 <img src="img/fetch_pycharm.png" width="600" />
@@ -124,7 +127,7 @@ A questo punto la versione locale è nuovamente sincronizzata con quella remota.
 
 ## Guida terminale
 Questa sezione mostra come usare **Git** tramite terminale.
-E' molto utilie per capire meglio come funziona **Git**.
+E' molto utilie per capire meglio come funziona **Git**, anche se le stesse cose si possono fare in PyCharm.
 
 ### Generazione token
 Una volta creato l'account *GitHub*, generare un token seguendo la
